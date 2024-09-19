@@ -1,0 +1,30 @@
+
+p {
+    color: red;
+    font-family: sans-serif, tahoma;
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+span {
+    color: blue;
+    font-family: sans-serif, tahoma;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    line-height: 1.5;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
