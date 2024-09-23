@@ -1,0 +1,14 @@
+
+.box {
+    padding: 20px 50px;
+    width: 100px;
+    height: 100px;
+    background: rgb(169, 200, 255);
+    margin: 20px;
+    margin-left: 100px;
+    text-align: center;
+    color: #55b;
+    border-top: 2px solid #22c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}

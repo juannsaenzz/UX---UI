@@ -1,0 +1,32 @@
+
+body {
+    background-color: rgb(2, 42, 3);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+    background: white;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 22px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 9px;
+    padding: 20px;
+    background-color: rgb(27, 106, 9);
+    text-align: justify;
+}
