@@ -1,0 +1,32 @@
+
+body {
+    background-color: rgb(218, 16, 16);
+    margin: 0;
+}
+
+.box {
+    width: 100%;
+    height: 200px;
+    margin: 20px;
+    background-color: rgb(7, 26, 75);
+    background-image: url("https://imgs.search.brave.com/J8sPtemmLmG_-CqAeqlE-qDXCY_ZL0yK2HsXtmaCUuE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy82/LzY1L0VzdGFkaW9f/Q2x1Yl9BdGxldGlj/b19TYW5fTG9yZW56/by5qcGc");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+.opaco {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(18, 7, 77, 0.66);
+}
+
+h2 {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
