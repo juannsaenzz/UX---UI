@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="../textarea/styles.css">
+    <title>Textarea</title>
+</head>
+<body>
+    <form>
+        <h2>Formulario de contacto</h2>
+        <div class="form_input">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" placeholder="Juan Saenz" minlength="3" id="nombre">
+        </div>
+        <div class="form_input">
+            <label for="email">Email</label>
+            <input type="email" placeholder="ejemplo@gmail.com" required id="email">
+        </div>
+        <div class="form_input">
+            <label for="mensaje">Mensaje</label>
+            <textarea rows="6" maxlength="100" placeholder="Deja tu mensaje.." id="mensaje"></textarea>
+        </div>
+        <div>
+            <label class="label_aceptar" for="aceptar">Acepto los terminos y condiciones</label>
+            <input class="checkbox" type="checkbox" id="aceptar">
+        </div>
+    </form>
+</body>
+</html>
