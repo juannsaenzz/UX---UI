@@ -4,6 +4,8 @@ body {
     font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
+    width: 100%;
+    font-size: 16px;
 }
 
 a {
@@ -19,14 +21,14 @@ header {
     grid-template-rows: 1fr 1fr;
 }
 
-header .header-icons-container {
+.header-icons-container {
     width: 100%;
     height: 50px;
     display: grid;
     background-color: #47cfac;
 }
 
-header .header-icons-container .icons {
+.header-icons-container .icons {
     width: 300px;
     height: auto;
     display: flex;
@@ -37,30 +39,75 @@ header .header-icons-container .icons {
     margin-right: 50px;
 }
 
-header .icons span {
+.icons span {
     color: white;
 }
 
-nav {
+.nav-header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr auto;
     height: 90px;
+    align-items: center;
+    background-color: white;
 }
 
-nav .nav-logo-container {
+.nav-logo-container {
     margin-left: 50px;
 }
 
-nav .nav-logo-container img {
+.nav-logo-container img {
     width: 220px;
     margin-top: 10px;
 }
 
-nav .profile-link a {
+.profile-link a {
     color: black;
     border-bottom: 1px solid black;
+    justify-self: end;
+    margin-right: 40px;
 }
 
+.main-container {
+    display: grid;
+    width: 100%;
+    height: 93vh;
+    justify-items: center;          
+    grid-template-rows: auto auto;
+    row-gap: 3rem;                  
+    padding: 20px;
+    background-image: url(../assets-img/assets/img/Cover.png);
+    background-size: cover;         
+    background-position: center 10%;     
+    background-repeat: no-repeat;   
+}
 
+.title-container {
+    width: 55%;
+    margin-top: 40px;
+}
 
+.title-container h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.8rem;
+}
 
+.enter-container {
+    margin-top: -50px;
+}
+
+.enter-container a {
+    text-decoration: none; 
+    background-color: #47cfac;  
+    color: black;                 
+    padding: 1rem 2rem;
+    border: 2px solid white;
+    font-weight: bold;  
+    font-size: 1.2rem;         
+}
+
+.enter-container a:hover {
+    background-color: #288870;   
+}
