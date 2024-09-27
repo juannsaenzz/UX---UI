@@ -1,0 +1,15 @@
+
+video {
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.588);
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: rgb(25, 57, 57);
+}
+
+audio {
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.588);
+}
