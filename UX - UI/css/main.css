@@ -76,7 +76,7 @@ nav .profile-link a {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
-    background-image: url('../assets/img/Cover.png');
+    background-image: url('../assets-img/assets/img/Cover.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,4 +166,86 @@ footer {
 footer p {
     color: white;
     margin-top: 30px;
+}
+
+.blog-main {
+    padding: 0 10px;
+    background: transparent;
+    margin: 0 auto;
+}
+
+.blog-post-container {
+    margin: 0 auto;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+}
+
+.post {
+    background: transparent;
+    padding: 20px;
+    box-shadow: none;
+    margin-bottom: 30px;
+    border-radius: 0;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+.post-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.post-content {
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.contact-section {
+    background-color: #e8e8e8; /* Color de fondo de la sección */
+    padding: 40px 0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.contact, .write {
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    width: 45%;
+}
+
+.contact-content, .write-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-image, .write-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.contact h3, .write h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact p, .write p {
+    font-size: 16px;
+    line-height: 1.5;
 }
